@@ -1,39 +1,32 @@
-<<<<<<< HEAD
 public class Q3_Turtle {
     String species;
     int age;
 
+    // 建構子
     public Q3_Turtle(String species, int age) {
-=======
-public class Q3_Turtle{
-    String species;
-    int age;
-
-    public Q3_Turtle(String species, int age){
->>>>>>> 46a63bc9f9ea1c131aad83694a3c66439701ab01
         this.species = species;
         this.age = age;
     }
 
-<<<<<<< HEAD
+    // 方法：顯示細節 (中文版)
     public void showDetails() {
-        System.out.println("品種：" + species + "，年紀：" + age + "歲");
+        System.out.println("品種：" + species + "，年紀：" + age + " 歲");
+    }
+
+    // 方法：顯示細節 (英文版)
+    public void showDetailEng() {
+        System.out.println("This turtle's species is: " + species + ", Age: " + age);
     }
 
     public static void main(String[] args) {
+        // 建立物件
         Q3_Turtle myTurtle = new Q3_Turtle("綠蠵龜", 50);
+
+        // 執行結果
+        System.out.println("--- 烏龜資訊 ---");
         myTurtle.showDetails();
+        
+        // 如果想跑英文版也可以呼叫這個
+        // myTurtle.showDetailEng();
     }
-=======
-    public void showDetail(){
-         System.out.println("This turtle's species is:" + species + "age: "+ age);
-    }
-
-    public static void main(String [] args){
-      Q3_Turtle myTurtle = new Q3_Turtle("Green Turtle", 50);
-      myTurtle.showDetail();
-
-    }
-
->>>>>>> 46a63bc9f9ea1c131aad83694a3c66439701ab01
 }
