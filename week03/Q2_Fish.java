@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Q2_Fish {
     String name;
     double weight;
@@ -12,4 +13,23 @@ public class Q2_Fish {
         myFish.weight = 250.5;
         myFish.displayInfo();
     }
+=======
+public class Q2_fish{
+    String name;
+    double weight;
+
+    public void displayinf(){
+         System.out.println("This fish's name is:" + name + "Weight: "+ wieght +"KG");
+    }
+
+    public static void main(String [] args){
+        Q2_fish myfish = new Q2_fish();
+        myfish.name = "Black fish";
+        myfish.weight =250.5;
+
+        myfish.displayinf();
+
+    }
+
+>>>>>>> 46a63bc9f9ea1c131aad83694a3c66439701ab01
 }
