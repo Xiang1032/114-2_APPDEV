@@ -14,5 +14,10 @@ public class Silas
         
         // Calling the method
         obj.printMessage(); 
+        int a = 10 ;
+        int b = 3;
+ 
+ System.out.println(a/b);
     }
+    
 }
