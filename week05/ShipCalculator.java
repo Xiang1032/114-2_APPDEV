@@ -1,4 +1,4 @@
-package week05;    // 宣告這個類別屬於 com.ocean
+// 宣告這個類別屬於 com.ocean
 public class ShipCalculator {
 
     // TODO 1: 計算兩個港口之間的運費（整數公里）

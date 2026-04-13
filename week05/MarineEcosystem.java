@@ -1,4 +1,4 @@
-package week05;// 父類別：生物
+
 
 class Creature {
     String name;
